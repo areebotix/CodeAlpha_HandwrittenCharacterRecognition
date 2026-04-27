@@ -1,0 +1,2 @@
+plt.savefig("outputs/plots/loss_curve.png")
+plt.savefig("outputs/confusion_matrices/cm.png")
