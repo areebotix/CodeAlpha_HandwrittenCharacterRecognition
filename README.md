@@ -73,7 +73,7 @@ CodeAlphaHandwrittenCharacterRecognition/
 ├── src/
 │   ├── datasets/
 │   ├── models/
-│   ├── training/
+│   ├── training/train.py
 │   ├── utils/
 │   └── inference/
 │
@@ -85,7 +85,6 @@ CodeAlphaHandwrittenCharacterRecognition/
 │   └── confusion_matrices/
 │
 ├── experiments/
-├── train.py
 ├── inference.py
 ├── requirements.txt
 ├── README.md
