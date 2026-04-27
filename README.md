@@ -62,11 +62,55 @@ OpenCV
 
 
 📂 Project Structure
-CodeAlphaHandwrittenCharacterRecognition/│├── data/│   ├── raw/│   ├── processed/│   └── samples/│├── notebooks/├── src/│   ├── datasets/│   ├── models/│   ├── training/train.py│   ├── utils/│   └── inference/│├── tests/├── models/├── outputs/│   ├── plots/│   ├── predictions/│   └── confusion_matrices/│├── experiments/├── inference.py├── requirements.txt├── README.md└── .gitignore
+CodeAlphaHandwrittenCharacterRecognition/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── samples/
+│
+├── notebooks/
+├── src/
+│   ├── datasets/
+│   ├── models/
+│   ├── training/
+│   ├── utils/
+│   └── inference/
+│
+├── tests/
+├── models/
+├── outputs/
+│   ├── plots/
+│   ├── predictions/
+│   └── confusion_matrices/
+│
+├── experiments/
+├── train.py
+├── inference.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 🧠 Model Architecture
-Input (1×28×28)   ↓Conv2D (32 filters)   ↓ReLU   ↓MaxPool   ↓Conv2D (64 filters)   ↓ReLU   ↓MaxPool   ↓Flatten   ↓Fully Connected (128)   ↓Output Layer (10 classes)
-
+Input (1×28×28)
+   ↓
+Conv2D (32 filters)
+   ↓
+ReLU
+   ↓
+MaxPool
+   ↓
+Conv2D (64 filters)
+   ↓
+ReLU
+   ↓
+MaxPool
+   ↓
+Flatten
+   ↓
+Fully Connected (128)
+   ↓
+Output Layer (10 classes)
 📊 Results
 
 
@@ -93,8 +137,9 @@ Sample Predictions
 
 
 ▶️ Installation
-git clone https://github.com/areebotix/CodeAlphaHandwrittenCharacterRecognition.gitcd CodeAlphaHandwrittenCharacterRecognitionpip install -r requirements.txt
-
+git clone https://github.com/yourusername/CodeAlphaHandwrittenCharacterRecognition.git
+cd CodeAlphaHandwrittenCharacterRecognition
+pip install -r requirements.txt
 🏋️ Training
 python train.py
 This will:
@@ -120,7 +165,15 @@ data/samples/
 
 📁 Output Files
 After training, the following files are generated automatically:
-outputs/├── plots/│   └── loss_curve.png├── predictions/│   ├── prediction_0.png│   └── ...└── confusion_matrices/    └── confusion_matrix.png
+
+outputs/
+├── plots/
+│   └── loss_curve.png
+├── predictions/
+│   ├── prediction_0.png
+│   └── ...
+└── confusion_matrices/
+    └── confusion_matrix.png
 
 🎯 Applications
 
